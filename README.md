@@ -7,7 +7,7 @@ Myself and several in the comments requested the code, but got no answer from th
 The examples for setting up the project are for the Sepolia network.
 
 ## Prerequisites
-**1.1.** ```git clone https://github.com/AlfSelen/votingdapp.git```\
+**1.1.** ```git clone https://github.com/AlfSelen/votingdapp.git``` (you need to install git if you dont have it ```https://git-scm.com/download/```)\
 **1.2.** Get an API key for scanning blockchain, e.g. by creating an account at ```https://etherscan.io```\
 **1.3.** Create a wallet and add plugin to browser  e.g. ```https://metamask.io/download/```\
 **1.4.** Find a RPC url for your selected network at ```https://chainlist.org``` or ```https://chainlist.org/chain/11155111``` for Sepolia network\
