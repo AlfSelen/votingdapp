@@ -2,3 +2,4 @@
 package*.json
 hardhat/ignition
 hardhat/test
+hardhat/README.md
