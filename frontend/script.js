@@ -444,8 +444,12 @@ const getAccount = async function() {
       console.log("Successfully added wallet")
 
   } catch (error) {
-      // Handle any errors during the process
-      console.error("Error connecting to wallet:", error);
+    if (error.code === 'NETWORK_ERROR' && error.network.chainId !== error.detectedNetwork.chainId) {
+      console.error(`Error connecting to wallet, make sure MetaMask is configured to use the same network e.g. Sepolia, got ChainID "${error.detectedNetwork.chainId}" expected "${error.network.chainId}"\n`, error);
+    } else {
+      // General error handling
+      console.error('Error connection to wallet:', error);
+    }
   }
 }
 
