@@ -1,6 +1,7 @@
 # About
 This project is from OneCodeCamp's (```youtube.com/@onecodecamp```) tutorial  ```Create a simple Voting DApp with Solidity```
-My self and several in the comments requested the code, but no answer from the creator, so I wanted to share the code. All code is manually typed from the tutorial video, just some minor quality of life improvements. 
+Myself and several in the comments requested the code, but got no answer from the creator, so I wanted to share the code. All code is manually typed from the tutorial video, just some minor quality of life improvements and error handling.\
+*Feel free to give feedback and give a star if this helped you.*
 
 # Setup
 The examples for setting up the project are for the Sepolia network.
@@ -31,3 +32,6 @@ The examples for setting up the project are for the Sepolia network.
 **3.3.1** (Optional Security) Open extensions (```Ctrl+Shift+X```) and right click ```Live Server``` select ```Extension Settings``` -> scroll down to ```Live Server > Settings: Root``` and select ```Edit in settings.json``` and change ```"liveServer.settings.root": ""``` to ```"liveServer.settings.root": "/frontend"``` - This make sure that only the frontent directory is available to the webserver\
 **3.4.** Connect with MetaMask (remember to log in and to specify your selected network)
 
+## Troubleshooting
+Right click in browser and inspect element to check the browser console for any errors.\
+Temporarly rename the style.css, to check that the html displays as intended.
